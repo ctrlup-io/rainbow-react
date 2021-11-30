@@ -1,0 +1,9 @@
+{
+  "name": "rainbow-react",
+  "version": "0.1.0",
+  "description": "Rainbow React, Ctrl Up Design System",
+  "repository": "git@github.com:ctrlup-io/rainbow-react.git",
+  "author": "Valentin Barit <valentin.barit@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
