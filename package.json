@@ -1,0 +1,9 @@
+{
+  "name": "rainbow-ui",
+  "version": "0.1.0",
+  "description": "Rainbow UI, Ctrl Up's Design System",
+  "repository": "git@github.com:ctrlup-io/rainbow-ui.git",
+  "author": "Valentin Barit <valentin.barit@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
