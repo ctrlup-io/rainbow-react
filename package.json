@@ -5,5 +5,11 @@
   "repository": "git@github.com:ctrlup-io/rainbow-react.git",
   "author": "Valentin Barit <valentin.barit@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "git-cz": "^4.8.0"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  }
 }
