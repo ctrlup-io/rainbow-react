@@ -1,24 +1,11 @@
 {
   "name": "rainbow-react",
   "version": "0.1.0",
+  "private": false,
   "description": "Rainbow React, Ctrl Up Design System",
   "repository": "git@github.com:ctrlup-io/rainbow-react.git",
-  "author": "Valentin Barit <valentin.barit@gmail.com>",
   "license": "MIT",
-  "private": false,
-  "devDependencies": {
-    "@commitlint/cli": "^16.0.2",
-    "@commitlint/config-conventional": "^16.0.0",
-    "eslint": "^8.6.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "git-cz": "^4.8.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.7",
-    "prettier": "^2.5.1"
-  },
+  "author": "Valentin Barit <valentin.barit@gmail.com>",
   "scripts": {
     "commit": "git-cz",
     "format": "prettier --write {*,src/**/*}.{js,json,md}",
@@ -31,11 +18,26 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
-    "*.{js,json,md}": "prettier --write"
+    "*.{js,json,md}": "prettier --write",
+    "package.json": "sort-package-json"
   },
   "eslintConfig": {
     "extends": [
       "standard"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1",
+    "sort-package-json": "^1.53.1"
   }
 }
