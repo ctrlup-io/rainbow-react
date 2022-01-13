@@ -19,3 +19,9 @@ Runs [ESLint](https://eslint.org/) with [standard configuration](https://standar
 ### `build`
 
 Bundles with [Parcel](https://parceljs.org/features/cli/#parcel-build-%3Centries%3E).
+
+### `release:dry`
+
+Runs [Semantic Release]() in dry-run mode. It allows you to preview the pending release.
+
+You have to set `NPM_TOKEN` and `GITHUB_TOKEN` in `.env` file.
