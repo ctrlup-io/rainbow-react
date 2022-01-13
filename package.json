@@ -6,7 +6,11 @@
   "repository": "git@github.com:ctrlup-io/rainbow-react.git",
   "license": "MIT",
   "author": "Valentin Barit <valentin.barit@gmail.com>",
+  "type": "module",
+  "module": "dist/index.js",
+  "source": "src/index.js",
   "scripts": {
+    "build": "rimraf dist && parcel build",
     "commit": "git-cz",
     "format": "prettier --write {*,src/**/*}.{js,json,md}",
     "lint": "eslint --cache ."
@@ -23,21 +27,22 @@
   },
   "eslintConfig": {
     "extends": [
-      "standard"
+      "react-app"
     ]
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
+    "@parcel/reporter-bundle-analyzer": "^2.2.0",
+    "babel-loader": "^8.2.3",
     "eslint": "^8.6.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint-config-react-app": "^7.0.0",
     "git-cz": "^4.8.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.7",
+    "parcel": "^2.2.0",
     "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
     "sort-package-json": "^1.53.1"
   }
 }
