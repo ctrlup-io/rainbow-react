@@ -22,6 +22,17 @@ Bundles with [Parcel](https://parceljs.org/features/cli/#parcel-build-%3Centries
 
 ### `release:dry`
 
-Runs [Semantic Release]() in dry-run mode. It allows you to preview the pending release.
+Runs [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) in dry-run mode. It allows you to preview the pending release.
 
 You have to set `NPM_TOKEN` and `GITHUB_TOKEN` in `.env` file.
+
+### `storybook`
+
+Runs [Storybook](https://storybook.js.org/) on http://localhost:6006/.
+
+Learn how to write stories on [official documentation](https://storybook.js.org/docs/react/writing-stories/introduction).
+
+### `storybook:build`
+
+Bundles Storybook app with [Webpack](https://webpack.js.org/).
+See more on [Publish Storybook documentation](https://storybook.js.org/docs/react/sharing/publish-storybook).
