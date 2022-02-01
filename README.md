@@ -1,3 +1,57 @@
+<p align="center">
+  <img
+    width="300px"
+    src="https://user-images.githubusercontent.com/26886259/151982539-29cabe30-663e-4d2d-8271-1139734c107f.jpg"
+    alt="Spongebob Rainbow" />
+</p>
+
+<h1 align="center">Rainbow React</h1>
+
+<p align="center">Ctrl Up Design System library for web applications</p>
+
+## Introduction
+
+Ctrl Up Design System is the framework that helps our ecosystem to design and develop consistent and quality experiences. For its [Digital section](https://www.figma.com/file/CL28EqRgZSExkBjDJnmkDV/Ctrl-Up---Site-V2?node-id=515%3A3205), it is called Rainbow.
+
+This repository hosts a React library for web applications.
+
+## Package
+
+This package provides you with a library of [React](https://reactjs.org/) components:
+
+<table>
+  <tr>
+    <th>@rainbow/react</th>
+    <td><a href=""><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a></td>
+    <td><a href=""><img src="https://img.shields.io/npm/v/@rainbow/react?style=flat&logo=npm" alt="npm version" /></a></td>
+  </tr>
+</table>
+
+## Contributing
+
+The best way to achieve this is together! That's why we are on GitHub. We would love contributions from the community (bug reports, feature requests, suggestions, Pull Requests, whatever you want!).
+
+[Yarn](https://classic.yarnpkg.com/en/docs/cli/) is used as package manager. [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) is used to manage the whole package release workflow.
+
+To setup your local dev environment:
+
+1. Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
+
+2. Clone repository
+
+```sh
+git clone git@github.com:ctrlup-io/rainbow-react.git
+cd rainbow-react
+```
+
+3. Install dependencies
+
+```sh
+yarn install
+```
+
+4. See [more available scripts](README.md#scripts)
+
 ## Available Scripts
 
 In the project directory, you can run:
