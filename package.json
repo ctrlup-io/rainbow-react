@@ -16,7 +16,8 @@
     "lint": "eslint --cache .",
     "release:dry": "node-env-run --exec 'semantic-release --dry-run'",
     "storybook": "start-storybook -p 6006",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "commitlint": {
     "extends": [
