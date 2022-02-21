@@ -1,20 +1,23 @@
 import { ThemeProvider as MuiThemeProvider } from "@mui/material/styles";
 import { ThemeProvider as EmotionThemeProvider } from "emotion-theming";
 import { Box } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 
 import theme from "../src/theme";
 
+const muiTheme = createTheme(theme);
+
 export const decorators = [
   (Story) => (
-    <EmotionThemeProvider theme={theme}>
-      <MuiThemeProvider theme={theme}>{Story()}</MuiThemeProvider>
+    <EmotionThemeProvider theme={muiTheme}>
+      <MuiThemeProvider theme={muiTheme}>{Story()}</MuiThemeProvider>
     </EmotionThemeProvider>
   ),
   (Story) => (
     <Box
       sx={{
-        background: theme.palette.background.default,
-        padding: theme.spacing(2),
+        background: muiTheme.palette.background.default,
+        padding: muiTheme.spacing(2),
       }}
     >
       {Story()}
@@ -37,6 +40,6 @@ export const parameters = {
   },
   backgrounds: {
     default: "dark",
-    values: [{ name: "dark", value: theme.palette.background.default }],
+    values: [{ name: "dark", value: muiTheme.palette.background.default }],
   },
 };

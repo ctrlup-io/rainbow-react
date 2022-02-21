@@ -1,5 +1,3 @@
-import { createTheme } from "@mui/material/styles";
-
 import colors from "./colors";
 
 const theme = {
@@ -216,4 +214,4 @@ const theme = {
   },
 };
 
-export default createTheme(theme);
+export default theme;
