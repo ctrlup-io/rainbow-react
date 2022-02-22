@@ -28,7 +28,7 @@ export const decorators = [
 export const parameters = {
   options: {
     storySort: {
-      order: ["Colors", "Fonts", "Theme"],
+      order: ["Colors", "Fonts", "Theme", "Icons"],
     },
   },
   actions: { argTypesRegex: "^on[A-Z].*" },

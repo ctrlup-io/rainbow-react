@@ -82,6 +82,16 @@ const theme = {
     borderRadius: 0,
   },
   components: {
+    MuiSvgIcon: {
+      styleOverrides: {
+        root: {
+          fill: colors.WHITE[700],
+        },
+        colorAction: {
+          fill: `url(#rainbow) ${colors.WHITE[700]}`,
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         root: {
