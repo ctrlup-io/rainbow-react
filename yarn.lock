@@ -2527,7 +2527,7 @@
     "@parcel/utils" "2.3.2"
     posthtml "^0.16.4"
 
-"@parcel/plugin@2.3.2", "@parcel/plugin@^2.2.1":
+"@parcel/plugin@2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.3.2.tgz#7701c40567d2eddd5d5b2b6298949cd03a2a22fa"
   integrity sha512-SaLZAJX4KH+mrAmqmcy9KJN+V7L+6YNTlgyqYmfKlNiHu7aIjLL+3prX8QRcgGtjAYziCxvPj0cl1CCJssaiGg==
@@ -2535,12 +2535,12 @@
     "@parcel/types" "2.3.2"
 
 "@parcel/reporter-bundle-analyzer@^2.2.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@parcel/reporter-bundle-analyzer/-/reporter-bundle-analyzer-2.2.1.tgz#1114d9984b66e6f67aeb7ba9819b43f1d5642768"
-  integrity sha512-jfur5a9XTD6mOpefh81YJ+Yi4w6BT6PxcirUKugiXyKtmILVtATZZWNagfYyz33V3ZIiYelt0Kn3ELCg1pA5xQ==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@parcel/reporter-bundle-analyzer/-/reporter-bundle-analyzer-2.3.2.tgz#2a8f63a9a4e171c841d7f52239234d99110ab896"
+  integrity sha512-ZsIH6iThwf4aTb56FKuqL2WuuvSM94JBFJzwNcKS5WfwXtWPlLWfhiCBmBqUaKqZBork6N9z+AQAnZByXUh4oA==
   dependencies:
-    "@parcel/plugin" "^2.2.1"
-    "@parcel/utils" "^2.2.1"
+    "@parcel/plugin" "2.3.2"
+    "@parcel/utils" "2.3.2"
     nullthrows "^1.1.1"
 
 "@parcel/reporter-cli@2.3.2":
@@ -2756,7 +2756,7 @@
     "@parcel/workers" "2.3.2"
     utility-types "^3.10.0"
 
-"@parcel/utils@2.3.2", "@parcel/utils@^2.2.1":
+"@parcel/utils@2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@parcel/utils/-/utils-2.3.2.tgz#4aab052fc9f3227811a504da7b9663ca75004f55"
   integrity sha512-xzZ+0vWhrXlLzGoz7WlANaO5IPtyWGeCZruGtepUL3yheRWb1UU4zFN9xz7Z+j++Dmf1Fgkc3qdk/t4O8u9HLQ==
