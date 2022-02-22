@@ -1,0 +1,44 @@
+import { Meta, Story } from "@storybook/addon-docs";
+import { Grid } from "@mui/material";
+
+import About from "./About";
+import Blog from "./Blog";
+import Team from "./Team";
+import Service from "./Service";
+import Community from "./Community";
+import Contact from "./Contact";
+import Job from "./Job";
+import Home from "./Home";
+
+<Meta title="Icons" />
+
+# Icons
+
+<Story name="Icons">
+  <Grid container spacing={2} alignItems="center">
+    <Grid item>
+      <About fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Team fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Blog fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Service fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Community fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Contact fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Job fontSize="large" color="action" />
+    </Grid>
+    <Grid item>
+      <Home fontSize="large" color="action" />
+    </Grid>
+  </Grid>
+</Story>
