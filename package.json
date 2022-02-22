@@ -72,8 +72,8 @@
     ]
   },
   "peerDependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.4.1",
     "react": "^17.0.2"
   },
@@ -83,8 +83,8 @@
     "@babel/plugin-transform-react-jsx": "^7.16.7",
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.4.1",
     "@parcel/reporter-bundle-analyzer": "^2.2.0",
     "@semantic-release/changelog": "^6.0.1",
