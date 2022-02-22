@@ -74,7 +74,7 @@
   "peerDependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.4.1",
+    "@mui/material": "^5.4.3",
     "react": "^17.0.2"
   },
   "devDependencies": {
@@ -85,7 +85,7 @@
     "@commitlint/config-conventional": "^16.0.0",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.4.1",
+    "@mui/material": "^5.4.3",
     "@parcel/reporter-bundle-analyzer": "^2.2.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
