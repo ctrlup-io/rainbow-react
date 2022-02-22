@@ -16,8 +16,10 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-      - run: yarn install
-      - run: yarn lint
+      - name: Install dependencies
+        run: yarn install
+      - name: Run static tests
+        run: yarn lint
   unit-tests:
     runs-on: ubuntu-latest
     steps:
@@ -26,5 +28,20 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-      - run: yarn install
-      - run: yarn test
+      - name: Install dependencies
+        run: yarn install
+      - name: Run unit tests
+        run: yarn test
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: yarn
+      - name: Release new package version
+        run: npx semantic-release
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

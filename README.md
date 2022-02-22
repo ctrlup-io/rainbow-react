@@ -22,7 +22,7 @@ This package provides you with a library of [React](https://reactjs.org/) compon
 <table>
   <tr>
     <th>@rainbow/react</th>
-    <td><a href=""><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a></td>
+    <td><a href="https://rainbow-react.netlify.app/"><img src="https://img.shields.io/badge/storybook-react-61DAFB?style=flat&logo=storybook" alt="storybook" /></a></a></td>
     <td><a href=""><img src="https://img.shields.io/npm/v/@rainbow/react?style=flat&logo=npm" alt="npm version" /></a></td>
   </tr>
 </table>
