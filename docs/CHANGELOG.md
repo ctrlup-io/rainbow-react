@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.0.0...v1.1.0) (2022-02-24)
+
+
+### Bug Fixes
+
+* 🐛 remove RainbowLinearGradient component ([06f49ac](https://github.com/ctrlup-io/rainbow-react/commit/06f49ac7d1a1b6911c5037ffd2d6d6adc74c74ce))
+
+
+### Features
+
+* 🎸 provide Card ([bac205d](https://github.com/ctrlup-io/rainbow-react/commit/bac205dcb128f22ad2cb6e314059039699e831fc))
+* 🎸 provide CollapseCard ([a87f9c0](https://github.com/ctrlup-io/rainbow-react/commit/a87f9c0b32116fb5d329b99b03eb9b37daf6d95d))
+
 # 1.0.0 (2022-02-23)
 
 
