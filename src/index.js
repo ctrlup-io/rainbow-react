@@ -8,3 +8,4 @@ export { default as HomeIcon } from "./icons/Home";
 export { default as JobIcon } from "./icons/Job";
 export { default as ServiceIcon } from "./icons/Service";
 export { default as TeamIcon } from "./icons/Team";
+export { default as CollapseCard } from "./CollapseCard";
