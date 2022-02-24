@@ -9,3 +9,4 @@ export { default as JobIcon } from "./icons/Job";
 export { default as ServiceIcon } from "./icons/Service";
 export { default as TeamIcon } from "./icons/Team";
 export { default as CollapseCard } from "./CollapseCard";
+export { default as Card } from "./Card";
