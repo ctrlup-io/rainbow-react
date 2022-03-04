@@ -82,6 +82,27 @@ const theme = {
     borderRadius: 0,
   },
   components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          border: "none",
+        },
+      },
+    },
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          border: "none",
+        },
+      },
+    },
+    MuiToolbar: {
+      styleOverrides: {
+        root: {
+          minHeight: 64,
+        },
+      },
+    },
     MuiSvgIcon: {
       styleOverrides: {
         root: {
