@@ -6,6 +6,7 @@ import Job from "../icons/Job";
 
 export default {
   component: Card,
+  title: Card.name,
 };
 
 export const WithMuiIcon = () => (

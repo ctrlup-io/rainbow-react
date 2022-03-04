@@ -4,6 +4,7 @@ import CollapseCard from ".";
 
 export default {
   component: CollapseCard,
+  title: CollapseCard.name,
 };
 
 export const WithTitleAndContent = () => (
