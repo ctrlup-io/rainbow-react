@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.2...v1.1.3) (2022-03-04)
+
+
+### Bug Fixes
+
+* 🐛 layout ([92cb1d1](https://github.com/ctrlup-io/rainbow-react/commit/92cb1d182118564e26fc647d89dccc5a8fdab6df))
+
 ## [1.1.2](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.1...v1.1.2) (2022-03-04)
 
 
