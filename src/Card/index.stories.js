@@ -1,8 +1,8 @@
 import { MailOutline } from "@mui/icons-material";
 import { Typography, CardContent, CardActions, Button } from "@mui/material";
 
-import Card from "./Card";
-import Job from "./icons/Job";
+import Card from ".";
+import Job from "../icons/Job";
 
 export default {
   component: Card,

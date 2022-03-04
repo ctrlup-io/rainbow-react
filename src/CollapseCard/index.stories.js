@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 
-import CollapseCard from "./CollapseCard";
+import CollapseCard from ".";
 
 export default {
   component: CollapseCard,

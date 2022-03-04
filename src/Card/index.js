@@ -1,7 +1,7 @@
 import { CardHeader, Card as MuiCard, Box } from "@mui/material";
 import { any, object, string } from "prop-types";
 
-import colors from "./colors";
+import colors from "../colors";
 
 export default function Card({ icon, title, children, sx, ...props }) {
   return (

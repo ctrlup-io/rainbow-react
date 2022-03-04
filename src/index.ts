@@ -1,4 +1,4 @@
-export { default as colors } from "./colors/index.js";
+export { default as colors } from "./colors";
 export { default as theme } from "./theme";
 export { default as AboutIcon } from "./icons/About";
 export { default as BlogIcon } from "./icons/Blog";

@@ -9,7 +9,7 @@ import { ExpandMore as ExpandMoreIcon } from "@mui/icons-material";
 import { useState } from "react";
 import { any, string } from "prop-types";
 
-import colors from "./colors";
+import colors from "../colors";
 
 export default function CollapseCard({ title, children, ...props }) {
   const [expanded, setExpanded] = useState(false);
