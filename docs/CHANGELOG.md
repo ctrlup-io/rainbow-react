@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.0...v1.1.1) (2022-03-04)
+
+
+### Bug Fixes
+
+* 🐛 use main as entry point ([4ac553c](https://github.com/ctrlup-io/rainbow-react/commit/4ac553c27fbd75b59dc4eddc7fff1c54f0cebc41))
+
 # [1.1.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.0.0...v1.1.0) (2022-02-24)
 
 
