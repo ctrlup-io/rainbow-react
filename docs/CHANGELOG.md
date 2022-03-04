@@ -1,3 +1,15 @@
+## [1.1.2](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.1...v1.1.2) (2022-03-04)
+
+
+### Bug Fixes
+
+* 🐛 name and path in stories ([f0ef750](https://github.com/ctrlup-io/rainbow-react/commit/f0ef750e73b84b8d871bdfeee78f0b1d4d01e2ef))
+
+
+### Reverts
+
+* Revert "refactor: 💡 emotion theme provider module" ([bbb5808](https://github.com/ctrlup-io/rainbow-react/commit/bbb580848e5df025d3d541afa2980d21e86bec25))
+
 ## [1.1.1](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.0...v1.1.1) (2022-03-04)
 
 
