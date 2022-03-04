@@ -1,5 +1,5 @@
 import { ThemeProvider as MuiThemeProvider } from "@mui/material/styles";
-import { ThemeProvider as EmotionThemeProvider } from "@emotion/react";
+import { ThemeProvider as EmotionThemeProvider } from "emotion-theming";
 import { Box } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 
