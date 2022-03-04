@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": "Valentin Barit <valentin.barit@gmail.com>",
   "type": "module",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "source": "src/index.js",
   "files": [
     "dist"
