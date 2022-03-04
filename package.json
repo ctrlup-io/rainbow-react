@@ -13,7 +13,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && parcel build",
+    "build": "rimraf dist && parcel build --reporter @parcel/reporter-bundle-analyzer",
     "commit": "git-cz",
     "format": "prettier --write {*,src/**/*}.{js,json,md}",
     "lint": "eslint --cache .",

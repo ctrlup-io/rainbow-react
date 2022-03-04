@@ -74,6 +74,12 @@ Runs [ESLint](https://eslint.org/) with [standard configuration](https://standar
 
 Bundles with [Parcel](https://parceljs.org/features/cli/#parcel-build-%3Centries%3E).
 
+It generates report in [`parcel-bundler-reports`](./parcel-bundler-reports) folder. To serve it, run :
+
+```sh
+npx live-server parcel-bundle-reports/module.html
+```
+
 ### `release:dry`
 
 Runs [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) in dry-run mode. It allows you to preview the pending release.

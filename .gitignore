@@ -187,3 +187,6 @@ storybook-static/
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,yarn,storybookjs
+
+# parcel bundle reports generated with @parcel/reporter-bundle-analyzer
+parcel-bundle-reports
