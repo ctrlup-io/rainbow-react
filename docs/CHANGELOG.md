@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.3...v1.1.4) (2022-03-25)
+
+
+### Bug Fixes
+
+* 🐛 same linear gradient everywhere ([3534088](https://github.com/ctrlup-io/rainbow-react/commit/35340889b4b7e22c1fbbeddadcd420b20c14f451))
+* 🐛 simplier svg path/circle ([cc3bd12](https://github.com/ctrlup-io/rainbow-react/commit/cc3bd12b054f9a276e854ee9a59f500d4c737e34))
+
 ## [1.1.3](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.2...v1.1.3) (2022-03-04)
 
 
