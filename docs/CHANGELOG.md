@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.4...v1.1.5) (2022-03-25)
+
+
+### Bug Fixes
+
+* 🐛 expose Rainbow module ([1d06808](https://github.com/ctrlup-io/rainbow-react/commit/1d068089ec70324d3fd4542c81f6a8a892a09d61))
+
 ## [1.1.4](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.3...v1.1.4) (2022-03-25)
 
 
