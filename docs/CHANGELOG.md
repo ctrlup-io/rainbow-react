@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.5...v1.2.0) (2022-03-26)
+
+
+### Features
+
+* 🎸 ThemeProvider ([0b6c187](https://github.com/ctrlup-io/rainbow-react/commit/0b6c187373bc08b674ab70c2947bcf41f5a36bbd))
+
 ## [1.1.5](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.4...v1.1.5) (2022-03-25)
 
 
