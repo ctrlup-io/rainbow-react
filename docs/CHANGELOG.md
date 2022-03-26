@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.0...v1.2.1) (2022-03-26)
+
+
+### Bug Fixes
+
+* 🐛 align MuiButton and ListItemButton ([ba8baf6](https://github.com/ctrlup-io/rainbow-react/commit/ba8baf634c8e36839f7a45774d2765a25b8bbc65))
+
 # [1.2.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.1.5...v1.2.0) (2022-03-26)
 
 
