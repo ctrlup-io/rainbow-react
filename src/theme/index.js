@@ -153,6 +153,26 @@ const theme = {
         },
       },
     },
+    MuiListItemButton: {
+      styleOverrides: {
+        root: {
+          paddingTop: 20,
+          paddingBottom: 20,
+          paddingRight: 24,
+          paddingLeft: 24,
+        }
+      }
+    },
+    MuiListItemText: {
+      styleOverrides: {
+        root: {
+          margin: 0,
+        },
+        primary: {
+          lineHeight: 1.75
+        }
+      }
+    },
     MuiLink: {
       styleOverrides: {
         root: {
