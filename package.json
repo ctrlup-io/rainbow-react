@@ -48,7 +48,8 @@
     ]
   },
   "eslintIgnore": [
-    "storybook-static"
+    "storybook-static",
+    "dist"
   ],
   "release": {
     "branches": [

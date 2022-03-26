@@ -1,8 +1,14 @@
-export const rainbowLinearGradient = [[0, '#FB84C6'], [24, '#E3E2C3'], [48, '#A8FFC3'], [76, '#98DDFF']]
+export const rainbowLinearGradient = [
+  [0, "#FB84C6"],
+  [24, "#E3E2C3"],
+  [48, "#A8FFC3"],
+  [76, "#98DDFF"],
+];
 
 const colors = {
-  RAINBOW:
-    `linear-gradient(90deg${rainbowLinearGradient.map(stop => `, ${stop[1]} ${stop[0]}%`).join('')})`,
+  RAINBOW: `linear-gradient(90deg${rainbowLinearGradient
+    .map((stop) => `, ${stop[1]} ${stop[0]}%`)
+    .join("")})`,
   BLACK: {
     900: "#131313",
     800: "#333333",
@@ -23,7 +29,5 @@ const colors = {
   ORANGE: "#FFDCA8",
   GREEN: "#98E4AD",
 };
-
-
 
 export default colors;

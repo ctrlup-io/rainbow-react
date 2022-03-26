@@ -1,24 +1,23 @@
 import { ThemeProvider as MuiThemeProvider } from "@mui/material/styles";
 import { ThemeProvider as EmotionThemeProvider } from "emotion-theming";
-import { Box } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 
-import theme from "../src/theme";
-import Rainbow from "../src/Rainbow";
+import { theme, Rainbow } from "../src";
 
 const muiTheme = createTheme(theme);
 
 export const decorators = [
   (Story) => (
     <EmotionThemeProvider theme={muiTheme}>
-      <MuiThemeProvider theme={muiTheme}>{Story()}</MuiThemeProvider>
+      <MuiThemeProvider theme={muiTheme}>
+        <CssBaseline />
+        {Story()}
+        <Box position="absolute" height={0} width={0} overflow="hidden">
+          <Rainbow />
+        </Box>
+      </MuiThemeProvider>
     </EmotionThemeProvider>
-  ),
-  (Story) => (
-    <>
-      <Rainbow />
-      {Story()}
-    </>
   ),
   (Story) => (
     <Box

@@ -11,3 +11,4 @@ export { default as Rainbow } from "./Rainbow";
 export { default as ServiceIcon } from "./icons/Service";
 export { default as TeamIcon } from "./icons/Team";
 export { default as theme } from "./theme";
+export { default as ThemeProvider } from "./ThemeProvider";
