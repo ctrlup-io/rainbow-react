@@ -1,11 +1,11 @@
 import { CardHeader, Card as MuiCard, Paper } from "@mui/material";
 import { any, object, string } from "prop-types";
 
-export default function Card({ icon, title, children, sx, ...props }) {
+export default function Card({ icon, title, children, ...props }) {
   return (
     <MuiCard
+      sx={{ position: "relative", overflow: "visible", mt: 4 }}
       {...props}
-      sx={{ ...sx, position: "relative", overflow: "visible", mt: 4 }}
     >
       <CardHeader
         title={title}
@@ -38,10 +38,8 @@ Card.propTypes = {
   icon: any,
   title: string.isRequired,
   children: any.isRequired,
-  sx: object,
 };
 
 Card.defaultProps = {
   icon: null,
-  sx: {},
 };
