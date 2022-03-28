@@ -1,5 +1,5 @@
 import { CardHeader, Card as MuiCard, Paper } from "@mui/material";
-import { any, object, string } from "prop-types";
+import { any, string } from "prop-types";
 
 export default function Card({ icon, title, children, ...props }) {
   return (
