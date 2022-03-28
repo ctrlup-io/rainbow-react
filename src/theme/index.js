@@ -160,8 +160,8 @@ const theme = {
           paddingBottom: 20,
           paddingRight: 24,
           paddingLeft: 24,
-        }
-      }
+        },
+      },
     },
     MuiListItemText: {
       styleOverrides: {
@@ -169,9 +169,9 @@ const theme = {
           margin: 0,
         },
         primary: {
-          lineHeight: 1.75
-        }
-      }
+          lineHeight: 1.75,
+        },
+      },
     },
     MuiLink: {
       styleOverrides: {
@@ -202,8 +202,8 @@ const theme = {
     MuiCardHeader: {
       styleOverrides: {
         root: {
-          paddingTop: 32,
-          paddingBottom: 32,
+          paddingTop: 16,
+          paddingBottom: 16,
           paddingLeft: 16,
           paddingRight: 16,
         },
@@ -216,8 +216,8 @@ const theme = {
     MuiCardContent: {
       styleOverrides: {
         root: {
-          paddingTop: 32,
-          paddingBottom: 32,
+          paddingTop: 16,
+          paddingBottom: 16,
           paddingLeft: 16,
           paddingRight: 16,
         },
@@ -226,8 +226,8 @@ const theme = {
     MuiCardActions: {
       styleOverrides: {
         root: {
-          paddingTop: 32,
-          paddingBottom: 32,
+          paddingTop: 16,
+          paddingBottom: 16,
           paddingLeft: 16,
           paddingRight: 16,
         },
