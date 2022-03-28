@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.2...v1.2.3) (2022-03-28)
+
+
+### Bug Fixes
+
+* 🐛 do not pass sx props to Card ([d5b14a6](https://github.com/ctrlup-io/rainbow-react/commit/d5b14a6f7b2393b8823999f33c3a3a0f0a41328f))
+
 ## [1.2.2](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.1...v1.2.2) (2022-03-28)
 
 
