@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.1...v1.2.2) (2022-03-28)
+
+
+### Bug Fixes
+
+* 🐛 reduce Card padding ([0286679](https://github.com/ctrlup-io/rainbow-react/commit/028667976fae4d1bf38e2e875b7323251343f477))
+
 ## [1.2.1](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.0...v1.2.1) (2022-03-26)
 
 
