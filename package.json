@@ -20,7 +20,9 @@
     "release:dry": "node-env-run --exec 'semantic-release --dry-run'",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "jest src --coverage",
+    "test:coverage": "npx live-server coverage/lcov-report",
+    "test:watch": "jest src --coverage --watchAll"
   },
   "commitlint": {
     "extends": [
@@ -31,6 +33,12 @@
     "*.js": "eslint --cache --fix",
     "*.{js,json,md,mdx}": "prettier --write",
     "package.json": "sort-package-json"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -88,10 +96,22 @@
       ]
     ]
   },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/plugin-syntax-flow": "^7.16.7",
     "@babel/plugin-transform-react-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
     "@emotion/react": "^11.8.1",
@@ -105,6 +125,8 @@
     "@storybook/addon-essentials": "^6.4.12",
     "@storybook/addon-links": "^6.4.12",
     "@storybook/react": "^6.4.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "12.1.4",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.12",
     "babel-loader": "^8.2.3",
@@ -112,6 +134,8 @@
     "eslint-config-react-app": "^7.0.0",
     "git-cz": "^4.8.0",
     "husky": "^7.0.4",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.1.7",
     "node-env-run": "^4.0.2",
     "parcel": "^2.2.0",
@@ -133,8 +157,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "prop-types": "^15.8.1"
   }
 }

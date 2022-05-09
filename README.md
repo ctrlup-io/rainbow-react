@@ -96,3 +96,12 @@ Learn how to write stories on [official documentation](https://storybook.js.org/
 
 Bundles Storybook app with [Webpack](https://webpack.js.org/).
 See more on [Publish Storybook documentation](https://storybook.js.org/docs/react/sharing/publish-storybook).
+
+### `test`
+
+Runs unit-test suite with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro).
+
+To use the full power of the Jest Watcher and LCOV coverage reporter we recommend to use the following scripts concurrently:
+
+- `test:watch`
+- `test:coverage`
