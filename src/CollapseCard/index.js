@@ -6,7 +6,7 @@ import {
   IconButton,
 } from "@mui/material";
 import { ExpandMore as ExpandMoreIcon } from "@mui/icons-material";
-import { useState } from "react";
+import React, { useState } from "react";
 import { any, string } from "prop-types";
 
 import colors from "../colors";
