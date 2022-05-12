@@ -74,7 +74,7 @@ const theme = {
       secondary: colors.WHITE[500],
     },
     background: {
-      default: colors.BLACK[800],
+      default: colors.BLACK[900],
       paper: colors.BLACK[900],
     },
   },
