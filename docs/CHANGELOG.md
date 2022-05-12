@@ -1,3 +1,11 @@
+## [1.2.4](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.3...v1.2.4) (2022-05-12)
+
+
+### Bug Fixes
+
+* 🐛 darker default background ([0e76b30](https://github.com/ctrlup-io/rainbow-react/commit/0e76b3095bbda16c66c3887bea0d4ac8c2ee9b46))
+* 🐛 keep sx props set in Card ([cd45fb6](https://github.com/ctrlup-io/rainbow-react/commit/cd45fb613440441ccbd86b2044bfa91a5c9c3d34))
+
 ## [1.2.3](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.2...v1.2.3) (2022-03-28)
 
 
