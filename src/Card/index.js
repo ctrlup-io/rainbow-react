@@ -1,5 +1,4 @@
 import React from "react";
-import { SxProps } from "@mui/material/styles";
 import { CardHeader, Card as MuiCard, Paper } from "@mui/material";
 import { any, string } from "prop-types";
 
@@ -40,7 +39,6 @@ Card.propTypes = {
   icon: any,
   title: string.isRequired,
   children: any.isRequired,
-  sx: SxProps,
 };
 
 Card.defaultProps = {
