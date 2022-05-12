@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import { SxProps } from "@mui/material/styles";
 import { CardHeader, Card as MuiCard, Paper } from "@mui/material";
 import { any, string } from "prop-types";
 
-export default function Card({ icon, title, children, ...props }) {
+export default function Card({ icon, title, children, sx, ...props }) {
   return (
     <MuiCard
-      sx={{ position: "relative", overflow: "visible", mt: 4 }}
       {...props}
+      sx={{ ...sx, position: "relative", overflow: "visible", mt: 4 }}
     >
       <CardHeader
         title={title}
@@ -39,8 +40,10 @@ Card.propTypes = {
   icon: any,
   title: string.isRequired,
   children: any.isRequired,
+  sx: SxProps,
 };
 
 Card.defaultProps = {
   icon: null,
+  sx: {},
 };
