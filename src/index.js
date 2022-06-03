@@ -18,3 +18,4 @@ export { default as SignIcon } from "./icons/Sign";
 export { default as TeamIcon } from "./icons/Team";
 export { default as theme } from "./theme";
 export { default as ThemeProvider } from "./ThemeProvider";
+export { default as Title } from "./Title";
