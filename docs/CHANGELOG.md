@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.5...v1.3.0) (2022-06-03)
+
+
+### Features
+
+* 🎸 social and section icons ([d486377](https://github.com/ctrlup-io/rainbow-react/commit/d486377f7c1e77ee9bfb8e0fa8a90effba18ae2e))
+
 ## [1.2.5](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.4...v1.2.5) (2022-05-12)
 
 
