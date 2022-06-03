@@ -3,42 +3,39 @@ import { Grid } from "@mui/material";
 
 import About from "./About";
 import Blog from "./Blog";
-import Team from "./Team";
-import Service from "./Service";
 import Community from "./Community";
 import Contact from "./Contact";
-import Job from "./Job";
+import Discord from "./Discord";
+import Hiking from "./Hiking";
 import Home from "./Home";
+import Job from "./Job";
+import Npm from "./Npm";
+import Service from "./Service";
+import ShoePrints from "./ShoePrints";
+import Sign from "./Sign";
+import Signature from "./Signature";
+import Team from "./Team";
+import IconSet from "./IconSet";
 
 <Meta title="Icons" />
 
-# Icons
+# Main
 
-<Story name="Icons">
-  <Grid container spacing={2} alignItems="center">
-    <Grid item>
-      <About fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Team fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Blog fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Service fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Community fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Contact fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Job fontSize="large" color="action" />
-    </Grid>
-    <Grid item>
-      <Home fontSize="large" color="action" />
-    </Grid>
-  </Grid>
+<Story name="Main icons">
+  <IconSet
+    icons={[About, Team, Blog, Service, Community, Contact, Job, Home]}
+    color="action"
+  />
+</Story>
+
+# Social
+
+<Story name="Social icons">
+  <IconSet icons={[Npm, Discord]} color="white" />
+</Story>
+
+# Miscellaneous
+
+<Story name="Miscellaneous icons">
+  <IconSet icons={[Hiking, ShoePrints, Sign, Signature]} color="white" />
 </Story>
