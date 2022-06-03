@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.3.0...v1.4.0) (2022-06-03)
+
+
+### Features
+
+* 🎸 Title with stain ([90854c2](https://github.com/ctrlup-io/rainbow-react/commit/90854c21ecfb08c80511a5331a2e3885a4701727))
+
 # [1.3.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.2.5...v1.3.0) (2022-06-03)
 
 
