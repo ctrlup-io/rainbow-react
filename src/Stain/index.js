@@ -1,4 +1,5 @@
 import { styled } from "@mui/system";
+import { number } from "prop-types";
 import React from "react";
 
 const Svg = styled("svg")(({ theme }) => ({
@@ -45,5 +46,9 @@ function Stain({ index = 0 }) {
     </Svg>
   );
 }
+
+Stain.propTypes = {
+  index: number,
+};
 
 export default Stain;

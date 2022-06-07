@@ -7,6 +7,7 @@ export { default as ContactIcon } from "./icons/Contact";
 export { default as HomeIcon } from "./icons/Home";
 export { default as JobIcon } from "./icons/Job";
 export { default as ServiceIcon } from "./icons/Service";
+export { default as Stain } from "./Stain";
 export { default as TeamIcon } from "./icons/Team";
 export { default as CollapseCard } from "./CollapseCard";
 export { default as Card } from "./Card";
