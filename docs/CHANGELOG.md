@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/ctrlup-io/rainbow-react/compare/v1.4.0...v1.4.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* 🐛 Stain is available ([33b400a](https://github.com/ctrlup-io/rainbow-react/commit/33b400a11a54dfc26b2356aafeb6ec2c1c3c9039))
+
 # [1.4.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.3.0...v1.4.0) (2022-06-03)
 
 
