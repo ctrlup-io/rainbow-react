@@ -15,6 +15,7 @@ export { default as ServiceIcon } from "./icons/Service";
 export { default as ShoePrintsIcon } from "./icons/ShoePrints";
 export { default as SignatureIcon } from "./icons/Signature";
 export { default as SignIcon } from "./icons/Sign";
+export { default as Stain } from "./Stain";
 export { default as TeamIcon } from "./icons/Team";
 export { default as theme } from "./theme";
 export { default as ThemeProvider } from "./ThemeProvider";
