@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.4.2...v1.5.0) (2022-06-27)
+
+
+### Features
+
+* 🎸 `<TopographicalLines>` pattern ([d26502c](https://github.com/ctrlup-io/rainbow-react/commit/d26502cb63b54c16f9b12a9fd3030b36cb2055e0))
+* 🎸 `scale` props on `<Stain>` ([5c49a93](https://github.com/ctrlup-io/rainbow-react/commit/5c49a933cb7710d06cc3b08e843a70f5da065914))
+
 ## [1.4.2](https://github.com/ctrlup-io/rainbow-react/compare/v1.4.1...v1.4.2) (2022-06-07)
 
 
