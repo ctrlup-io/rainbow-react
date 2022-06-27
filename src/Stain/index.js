@@ -29,12 +29,13 @@ const stains = [
   },
 ];
 
-function Stain({ index = 0 }) {
+function Stain({ index = 0, scale = 1 }) {
   const stain = stains[index % stains.length];
   return (
     <Svg
       width={stain.width}
       height={stain.height}
+      sx={{ transform: `scale(${scale})`, transformOrigin: "left" }}
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
