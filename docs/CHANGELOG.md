@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.5.0...v1.6.0) (2022-07-22)
+
+
+### Features
+
+* 🎸 set `CollapseCard` expanded by default ([9ca162d](https://github.com/ctrlup-io/rainbow-react/commit/9ca162df1cb7f025042909924f2c6fab8e1e41c2))
+
 # [1.5.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.4.2...v1.5.0) (2022-06-27)
 
 
