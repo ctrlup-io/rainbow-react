@@ -11,8 +11,13 @@ import { any, string } from "prop-types";
 
 import colors from "../colors";
 
-export default function CollapseCard({ title, children, ...props }) {
-  const [expanded, setExpanded] = useState(false);
+export default function CollapseCard({
+  title,
+  children,
+  defaultExpanded = false,
+  ...props
+}) {
+  const [expanded, setExpanded] = useState(defaultExpanded);
 
   const toggle = () => {
     setExpanded(!expanded);
