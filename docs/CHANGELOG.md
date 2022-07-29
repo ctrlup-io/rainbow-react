@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.6.0...v1.7.0) (2022-07-29)
+
+
+### Features
+
+* 🎸 new topgraphical lines ([fa3f6e5](https://github.com/ctrlup-io/rainbow-react/commit/fa3f6e5ef610ff1e564b5922c0ec5ee1398ac123))
+
 # [1.6.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.5.0...v1.6.0) (2022-07-22)
 
 
