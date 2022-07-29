@@ -1,7 +1,6 @@
-import { useTheme } from "@mui/material/styles";
+import colors from "../colors";
 
 function TopographicalLines() {
-  const theme = useTheme();
   return (
     <svg viewBox="0 0 1440 619" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -16,12 +15,8 @@ function TopographicalLines() {
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(1388 -4.00012) rotate(109.095) scale(534.935 1140.63)"
       >
-        <stop stopColor={theme.palette.common.white} />
-        <stop
-          offset="1"
-          stopColor={theme.palette.common.white}
-          stopOpacity="0"
-        />
+        <stop stopColor={colors.WHITE[50]} />
+        <stop offset="1" stopColor={colors.WHITE[50]} stopOpacity="0" />
       </radialGradient>
     </svg>
   );

@@ -22,3 +22,4 @@ export { default as ThemeProvider } from "./ThemeProvider";
 export { default as Title } from "./Title";
 export { default as TopographicalLinesOne } from "./TopographicalLines/One";
 export { default as TopographicalLinesTwo } from "./TopographicalLines/Two";
+export { default as TopographicalLinesThree } from "./TopographicalLines/Three";
