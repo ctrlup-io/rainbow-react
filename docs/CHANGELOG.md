@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.7.0...v1.8.0) (2022-07-29)
+
+
+### Features
+
+* 🎸 third topographic lines ([cb8e99e](https://github.com/ctrlup-io/rainbow-react/commit/cb8e99e04d642f0237832b3cf4a5430571950f0a))
+
 # [1.7.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.6.0...v1.7.0) (2022-07-29)
 
 
