@@ -10,12 +10,8 @@ describe(Title.name, () => {
     expect(container).toBeEmptyDOMElement();
   });
   it("renders a label with stain", () => {
-    render(<Title label="Bienvenue" />);
-    expect(screen.getByTestId("stain")).toHaveTextContent("Bienvenue");
-  });
-  it("renders a label with stain", () => {
-    render(<Title label="La bienvenue" />);
-    expect(screen.getByText("La")).toBeInTheDocument();
-    expect(screen.getByTestId("stain")).toHaveTextContent("bienvenue");
+    render(<Title>Soyez les bienvenues</Title>);
+    expect(screen.getByText("Soyez les")).toBeInTheDocument();
+    expect(screen.getByTestId("stain")).toHaveTextContent("bienvenues");
   });
 });

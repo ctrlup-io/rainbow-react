@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 import Title from ".";
 
 export default {
@@ -5,10 +7,24 @@ export default {
   title: Title.name,
 };
 
-export const WithStain = () => (
-  <>
-    {Array.from({ length: 4 }, (v, k) => (
-      <Title label="Ctrl Up, une ESN singulière" stainIndex={k} key={k} />
-    ))}
-  </>
+export const Nominal = () => (
+  <Title stainIndex={0}>Ctrl Up, une ESN singulière</Title>
+);
+
+export const WithVariant = () => (
+  <Title stainIndex={1} variant="h4">
+    Ctrl Up, une ESN singulière
+  </Title>
+);
+
+export const WithBigFontSize = () => (
+  <Title stainIndex={2} fontSize={116}>
+    Ctrl Up, une ESN singulière
+  </Title>
+);
+
+export const WithWrapping = () => (
+  <Box maxWidth={64}>
+    <Title stainIndex={3}>Ctrl Up, une ESN singulière</Title>
+  </Box>
 );
