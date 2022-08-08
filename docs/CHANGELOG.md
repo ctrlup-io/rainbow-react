@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.9.0...v2.0.0) (2022-08-08)
+
+
+### Features
+
+* 🎸 no more topographical lines ([c8b63e9](https://github.com/ctrlup-io/rainbow-react/commit/c8b63e909ea5a6272d8b42e9d588ca14033292e8))
+
+
+### BREAKING CHANGES
+
+* 🧨 all <TopographicalLines*> components are no longer available
+
 # [1.9.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.8.0...v1.9.0) (2022-08-08)
 
 
