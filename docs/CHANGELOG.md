@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.8.0...v1.9.0) (2022-08-08)
+
+
+### Features
+
+* 🎸 no more `scale` props on `Stain`$ ([fcefc84](https://github.com/ctrlup-io/rainbow-react/commit/fcefc84033305e7e3a2d9b9e046449880e025576))
+* 🎸 use `children` props i/o `label` on `Title` ([e367af8](https://github.com/ctrlup-io/rainbow-react/commit/e367af80c92d942864dd9a1bd34a1dc776f1a58c))
+
 # [1.8.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.7.0...v1.8.0) (2022-07-29)
 
 
