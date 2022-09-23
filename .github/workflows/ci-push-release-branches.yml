@@ -11,40 +11,40 @@ jobs:
   static-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
+          cache: "npm"
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Run static tests
-        run: yarn lint
+        run: npm run lint
   unit-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
+          cache: "npm"
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Run unit tests
-        run: yarn test
+        run: npm run test
   release:
     needs: [static-tests, unit-tests]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
+          cache: "npm"
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Build artefacts
-        run: yarn build
+        run: npm run build
       - name: Release new package version
         run: npx semantic-release
         env:

@@ -11,20 +11,24 @@ jobs:
   static-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
-      - run: yarn install
-      - run: yarn lint
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Run static tests
+        run: npm run lint
   unit-tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
-      - run: yarn install
-      - run: yarn test
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Run unit tests
+        run: npm run test
