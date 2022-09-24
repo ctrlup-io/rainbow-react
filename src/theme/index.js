@@ -192,6 +192,13 @@ const theme = {
         },
       },
     },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        notchedOutline: {
+          borderImageSlice: 1,
+          borderImageSource: colors.RAINBOW,
+          borderWidth: 1,
+          background: "transparent",
         },
       },
     },
