@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/ctrlup-io/rainbow-react/compare/v2.1.0...v2.1.1) (2022-09-24)
+
+
+### Bug Fixes
+
+* 🐛 svg without theme ([985be48](https://github.com/ctrlup-io/rainbow-react/commit/985be481c232e64dc1908bedbc055a50fa019108))
+
 # [2.1.0](https://github.com/ctrlup-io/rainbow-react/compare/v2.0.0...v2.1.0) (2022-09-24)
 
 
