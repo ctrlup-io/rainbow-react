@@ -68,7 +68,7 @@ We recommend to use Prettier in your IDE, e.g. in Visual Studio code with [Prett
 
 ### `lint`
 
-Runs [ESLint](https://eslint.org/) with [standard configuration](https://standardjs.com/).
+Runs [ESLint](https://eslint.org/).
 
 ### `build`
 
