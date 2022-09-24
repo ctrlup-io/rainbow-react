@@ -2,11 +2,11 @@ import { styled } from "@mui/material/styles";
 
 import { rainbowLinearGradient } from "../colors";
 
-const Svg = styled("svg")(({ theme }) => ({
+const Svg = styled("svg")({
   position: "aboslute",
   height: 0,
   width: 0,
-}));
+});
 
 export default function Rainbow() {
   return (
