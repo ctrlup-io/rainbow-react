@@ -1,0 +1,4 @@
+{
+  "coverageReporters": ["lcov", "text-summary"],
+  "testEnvironment": "jest-environment-jsdom"
+}
