@@ -255,13 +255,6 @@ const theme = {
         },
       },
     },
-    MuiTypography: {
-      styleOverrides: {
-        root: {
-          color: colors.WHITE[300],
-        },
-      },
-    },
   },
 };
 
