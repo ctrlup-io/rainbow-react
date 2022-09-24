@@ -1,11 +1,20 @@
+const RAINBOW_PINK = "#FB84C6";
+const RAINBOW_YELLOW = "#E3E2C3";
+const RAINBOW_GREEN = "#A8FFC3";
+const RAINBOW_BLUE = "#98DDFF";
+
 export const rainbowLinearGradient = [
-  [0, "#FB84C6"],
-  [24, "#E3E2C3"],
-  [48, "#A8FFC3"],
-  [76, "#98DDFF"],
+  [0, RAINBOW_PINK],
+  [24, RAINBOW_YELLOW],
+  [48, RAINBOW_GREEN],
+  [76, RAINBOW_BLUE],
 ];
 
 const colors = {
+  RAINBOW_PINK,
+  RAINBOW_YELLOW,
+  RAINBOW_GREEN,
+  RAINBOW_BLUE,
   RAINBOW: `linear-gradient(90deg${rainbowLinearGradient
     .map((stop) => `, ${stop[1]} ${stop[0]}%`)
     .join("")})`,
