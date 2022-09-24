@@ -65,6 +65,9 @@ const theme = {
     primary: {
       main: colors.WHITE[50],
     },
+    secondary: {
+      main: colors.RAINBOW_PINK,
+    },
     common: {
       white: colors.WHITE[50],
       black: colors.BLACK[800],
