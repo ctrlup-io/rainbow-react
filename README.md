@@ -31,11 +31,11 @@ This package provides you with a library of [React](https://reactjs.org/) compon
 
 The best way to achieve this is together! That's why we are on GitHub. We would love contributions from the community (bug reports, feature requests, suggestions, Pull Requests, whatever you want!).
 
-[Yarn](https://classic.yarnpkg.com/en/docs/cli/) is used as package manager. [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) is used to manage the whole package release workflow.
+[Npm](https://docs.npmjs.com/) is used as package manager. [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) is used to manage the whole package release workflow.
 
 To setup your local dev environment:
 
-1. Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
+1. Install [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 2. Clone repository
 
