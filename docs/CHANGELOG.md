@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/ctrlup-io/rainbow-react/compare/v2.0.0...v2.1.0) (2022-09-24)
+
+
+### Bug Fixes
+
+* 🐛 no emotion provider ([1f1afe8](https://github.com/ctrlup-io/rainbow-react/commit/1f1afe8da938ff58217a518ef5689e6863fdd7aa))
+
+
+### Features
+
+* 🎸 single rainbow colors ([f5dd17b](https://github.com/ctrlup-io/rainbow-react/commit/f5dd17b567e0a33c99bf6508cb6198ed469eb2d5))
+
 # [2.0.0](https://github.com/ctrlup-io/rainbow-react/compare/v1.9.0...v2.0.0) (2022-08-08)
 
 
