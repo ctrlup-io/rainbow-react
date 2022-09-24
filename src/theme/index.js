@@ -1,4 +1,14 @@
+import { alpha } from "@mui/material/styles";
 import colors from "../colors";
+
+const rainbowColor = {
+  textDecorationColor: alpha(colors.WHITE[50], 0.4),
+  background: colors.RAINBOW,
+  WebkitBackgroundClip: "text",
+  MozBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  MozTextFillColor: "transparent",
+};
 
 const theme = {
   typography: {
@@ -144,11 +154,7 @@ const theme = {
           borderStyle: "solid",
           borderColor: colors.WHITE[600],
           borderWidth: 1,
-          background: colors.RAINBOW,
-          WebkitBackgroundClip: "text",
-          MozBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          MozTextFillColor: "transparent",
+          ...rainbowColor,
           "&:hover": {
             borderColor: colors.WHITE[600],
             borderWidth: 1,
@@ -177,15 +183,15 @@ const theme = {
       },
     },
     MuiLink: {
+      defaultProps: {
+        fontWeight: 700,
+      },
       styleOverrides: {
         root: {
-          background: colors.RAINBOW,
-          WebkitBackgroundClip: "text",
-          MozBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          MozTextFillColor: "transparent",
-          fontWeight: 700,
-          fontFamily: '"Montserrat", sans-serif',
+          ...rainbowColor,
+        },
+      },
+    },
         },
       },
     },
