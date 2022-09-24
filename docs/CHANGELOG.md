@@ -1,3 +1,16 @@
+# [2.2.0](https://github.com/ctrlup-io/rainbow-react/compare/v2.1.1...v2.2.0) (2022-09-24)
+
+
+### Bug Fixes
+
+* 🐛 default typography color ([7db07ee](https://github.com/ctrlup-io/rainbow-react/commit/7db07ee68a01295d7a1516dbad563c02c5ffe033))
+
+
+### Features
+
+* 🎸 rainbow input border ([b5c1706](https://github.com/ctrlup-io/rainbow-react/commit/b5c1706f22825d103a2cc5c90a57b22411db1533))
+* 🎸 secondary color as rainbow pink ([f05c5f7](https://github.com/ctrlup-io/rainbow-react/commit/f05c5f7e45ff5bde924e03050fe0d3640c2ebfdb))
+
 ## [2.1.1](https://github.com/ctrlup-io/rainbow-react/compare/v2.1.0...v2.1.1) (2022-09-24)
 
 
