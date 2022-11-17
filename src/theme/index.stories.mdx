@@ -85,14 +85,29 @@ Theme based on [MUI theming v5](https://mui.com/customization/theming/).
 
 <Story name="Button">
   <Grid container spacing={3}>
-    <Grid item>
+    <Grid item xs={4}>
       <Button variant="contained">Contactez-nous</Button>
     </Grid>
-    <Grid item>
+    <Grid item xs={4}>
       <Button variant="outlined">Lire plus...</Button>
     </Grid>
-    <Grid item>
+    <Grid item xs={4}>
       <Button variant="text">Lire plus...</Button>
+    </Grid>
+    <Grid item xs={4}>
+      <Button variant="contained" disabled>
+        Contactez-nous
+      </Button>
+    </Grid>
+    <Grid item xs={4}>
+      <Button variant="outlined" disabled>
+        Lire plus...
+      </Button>
+    </Grid>
+    <Grid item xs={4}>
+      <Button variant="text" disabled>
+        Lire plus...
+      </Button>
     </Grid>
   </Grid>
 </Story>

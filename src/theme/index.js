@@ -135,8 +135,10 @@ const theme = {
           paddingLeft: 24,
         },
         contained: {
-          background: colors.RAINBOW,
-          color: colors.BLACK[800],
+          "&:not(.Mui-disabled)": {
+            background: colors.RAINBOW,
+            color: colors.BLACK[800],
+          },
         },
         outlined: {
           borderImageSlice: 1,
@@ -152,9 +154,11 @@ const theme = {
         },
         text: {
           borderStyle: "solid",
-          borderColor: colors.WHITE[600],
           borderWidth: 1,
-          ...rainbowColor,
+          "&:not(.Mui-disabled)": {
+            borderColor: colors.WHITE[600],
+            ...rainbowColor,
+          },
           "&:hover": {
             borderColor: colors.WHITE[600],
             borderWidth: 1,
