@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/ctrlup-io/rainbow-react/compare/v2.2.0...v2.2.1) (2022-11-17)
+
+
+### Bug Fixes
+
+* 🐛 disabled button ([c590ab6](https://github.com/ctrlup-io/rainbow-react/commit/c590ab6114f8da7b5b7c0cbeb5b4ba95fca6ceb1))
+
 # [2.2.0](https://github.com/ctrlup-io/rainbow-react/compare/v2.1.1...v2.2.0) (2022-09-24)
 
 
