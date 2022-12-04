@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/ctrlup-io/rainbow-react/compare/v2.2.2...v2.2.3) (2022-12-04)
+
+
+### Bug Fixes
+
+* 🐛 aboslute position for rainbow svg ([8f92a0c](https://github.com/ctrlup-io/rainbow-react/commit/8f92a0ca32c7aa7cea276acd85d54dd4c264ac6d))
+
 ## [2.2.2](https://github.com/ctrlup-io/rainbow-react/compare/v2.2.1...v2.2.2) (2022-12-04)
 
 
