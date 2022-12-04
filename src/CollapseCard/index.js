@@ -9,8 +9,6 @@ import { ExpandMore as ExpandMoreIcon } from "@mui/icons-material";
 import React, { useState } from "react";
 import { any, string } from "prop-types";
 
-import colors from "../colors";
-
 export default function CollapseCard({
   title,
   children,
@@ -51,13 +49,7 @@ export default function CollapseCard({
         title={title}
       />
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent
-          sx={{
-            backgroundColor: colors.WHITE[700],
-          }}
-        >
-          {children}
-        </CardContent>
+        <CardContent>{children}</CardContent>
       </Collapse>
     </Card>
   );
