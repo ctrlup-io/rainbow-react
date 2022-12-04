@@ -51,13 +51,7 @@ export default function CollapseCard({
         title={title}
       />
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent
-          sx={{
-            backgroundColor: colors.WHITE[700],
-          }}
-        >
-          {children}
-        </CardContent>
+        <CardContent>{children}</CardContent>
       </Collapse>
     </Card>
   );
