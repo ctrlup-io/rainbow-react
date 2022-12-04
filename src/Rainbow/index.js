@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 import { rainbowLinearGradient } from "../colors";
 
 const Svg = styled("svg")({
-  position: "aboslute",
+  position: "absolute",
   height: 0,
   width: 0,
 });
