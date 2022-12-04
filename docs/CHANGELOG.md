@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/ctrlup-io/rainbow-react/compare/v2.2.1...v2.2.2) (2022-12-04)
+
+
+### Bug Fixes
+
+* 🐛 collapse card no contrast color ([e146961](https://github.com/ctrlup-io/rainbow-react/commit/e14696199adda07fa5405560b3657077a2e81040))
+
 ## [2.2.1](https://github.com/ctrlup-io/rainbow-react/compare/v2.2.0...v2.2.1) (2022-11-17)
 
 
